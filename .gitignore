@@ -1,0 +1,35 @@
+*.class
+
+#package file
+# *.jar 第三方jar包可能需要提交至git 所以不要忽略
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#maven
+target/
+
+#eclipse ignore
+.settings/
+.project
+.classpath
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
